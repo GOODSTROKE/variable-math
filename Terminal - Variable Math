@@ -1,0 +1,71 @@
+Last login: Sat Oct  8 14:44:59 on console
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+Quiets-Mac-Pro:~ quietspec$ code .
+-bash: code: command not found
+Quiets-Mac-Pro:~ quietspec$ cd desktop
+Quiets-Mac-Pro:desktop quietspec$ cd Code-Immersives-Workspace
+Quiets-Mac-Pro:Code-Immersives-Workspace quietspec$ cd 100Workspace-Fall22
+Quiets-Mac-Pro:100Workspace-Fall22 quietspec$ cd 101
+Quiets-Mac-Pro:101 quietspec$ cd variable-math
+Quiets-Mac-Pro:variable-math quietspec$ open adder.js
+Quiets-Mac-Pro:variable-math quietspec$ node adder.js
+${num1} and {num2} = $(sum)
+Quiets-Mac-Pro:variable-math quietspec$ node greeter.js
+Hello my name is ${myName1} nice to meet you 
+Quiets-Mac-Pro:variable-math quietspec$ node greeter.js
+/Users/quietspec/Desktop/Code-Immersives-Workspace/100Workspace-Fall22/101/variable-math/greeter.js:3
+console.log(`Hello my name is ${myName1} nice to meet you `);
+                                ^
+
+ReferenceError: myName1 is not defined
+    at Object.<anonymous> (/Users/quietspec/Desktop/Code-Immersives-Workspace/100Workspace-Fall22/101/variable-math/greeter.js:3:33)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+Quiets-Mac-Pro:variable-math quietspec$ node greeter.js
+Hello my name is Alister nice to meet you 
+Quiets-Mac-Pro:variable-math quietspec$ node adder.js
+10 and {num2} = $(sum)
+Quiets-Mac-Pro:variable-math quietspec$ node adder.js
+10 and 20 = 30
+Quiets-Mac-Pro:variable-math quietspec$ node greeter.js
+Hello my name is Alister nice to meet you 
+Hello my name isAlister and it is nive to meet you
+Quiets-Mac-Pro:variable-math quietspec$ node greeter.js
+Hello my name is Alister nice to meet you 
+Hello my name is Alister and it is nive to meet you
+Quiets-Mac-Pro:variable-math quietspec$ ls
+README.md	adder.js	fute-age.js	greeter.js	remainder.js
+Quiets-Mac-Pro:variable-math quietspec$ lety
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
